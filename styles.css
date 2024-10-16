@@ -10,7 +10,6 @@
     min-height: 100vh;
     background-color: antiquewhite;
     overflow-x: hidden;
-    overflow-y: scroll;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -60,7 +59,7 @@
 @media (max-width: 635px) {
     #user #user-input-field input {
         text-align: center;
-        border: 2px solid black;
+        border: 2pxshreeyamkaran solid black;
     }
 }
 
@@ -81,7 +80,7 @@
         width: 50%;
     }
 }
-
+shreeyamkaran
 #stats {
     display: flex;
     flex-direction: column;
