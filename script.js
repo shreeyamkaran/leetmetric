@@ -29,7 +29,7 @@ btn.addEventListener("click", async () => {
         content.removeChild(message);
     }
 
-    const username = inputField.value;
+    const username = inputField.value.trim();
     let response = await fetch(url + username);
     let data = await response.json();
     
