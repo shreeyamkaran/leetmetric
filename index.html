@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>LeetMetric</title>
+</head>
+<body>
+    <div id="container">
+        <div id="content">
+            
+            <div id="heading">
+                <p>LeetMetric</p>
+            </div>
+
+            <div id="user">
+                <div id="user-input-field">
+                    <input type="text" id="input-field" placeholder="leetcode username">
+                </div>
+                <div id="user-input-btn">
+                    <button id="user-btn">Get Stats</button>
+                </div>
+            </div>
+
+            <div class="loader"></div>
+
+            <div id="stats">
+                <div id="progress">
+                    <div class="bubble" id="easy">
+                        <p id="easy-solved">50</p>
+                        <hr />
+                        <p id="total-easy">100</p>
+                        <p class="difficulty label">Easy</p>
+                    </div>
+                    <div class="bubble" id="medium">
+                        <p id="medium-solved">35</p>
+                        <hr />
+                        <p id="total-medium">200</p>
+                        <p class="difficulty label">Medium</p>
+                    </div>
+                    <div class="bubble" id="hard">
+                        <p id="hard-solved">12</p>
+                        <hr />
+                        <p id="total-hard">150</p>
+                        <p class="difficulty label">Hard</p>
+                    </div>
+                </div>
+                <div id="other-stats">
+                    <div class="square">
+                        <p id="total-solved">97</p>
+                        <p class="label">Total Solved</p>
+                    </div>
+                    <div class="square">
+                        <p id="total-questions">450</p>
+                        <p class="label">Total Questions</p>
+                    </div>
+                    <div class="square">
+                        <p id="acceptance-rate">69.69%</p>
+                        <p class="label">Acceptance Rate</p>
+                    </div>
+                    <div class="square">
+                        <p id="ranking">14154151</p>
+                        <p class="label">Rank</p>
+                    </div>
+                </div>
+            </div>
+
+            <p id="message"></p>
+
+        </div>
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
